@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capacitor</title>
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE; /* Aqua Blue Gradient with #E1EBEE */
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative; /* Make header position relative for logo positioning */
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px; /* Adjust the size of the logo */
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out; /* Fade-in effect */
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Capacitor Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05); /* Hover effect to enlarge image */
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Printed Circuit Board(PCB)</h1>
+        <!-- Logo on the right corner -->
+        <img src="https://via.placeholder.com/80x80?text=Logo" alt="Logo" class="logo">
+    </header>
+
+    <div class="container">
+
+        <p>A Printed Circuit Board (PCB) is a foundational component in electronic devices. PCBs provide the mechanical support and electrical connections between components. They play a critical role in modern communication systems, including those that require integrated antennas for wireless applications.</p>
+
+        <div class="image-container">
+            <img src="https://via.placeholder.com/400x300?text=PCB+with+Antenna" alt="PCB with Antenna">
+        </div>
+
+        <h2>Types of PCB Antennas</h2>
+        <div class="section-content">
+            <h3>Microstrip Antenna:</h3>
+            <p>This type of antenna is fabricated directly on the PCB using conductive traces. It is commonly used in wireless communication devices such as Wi-Fi routers and GPS modules.</p>
+            <p><strong>Example:</strong> Wi-Fi modules in IoT devices.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>PCB Trace Antenna:</h3>
+            <p>A trace antenna is a simple conductive path etched onto the PCB, designed to function as an antenna. It is cost-effective and widely used in low-power devices.</p>
+            <p><strong>Example:</strong> Bluetooth and ZigBee modules.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Embedded Antenna:</h3>
+            <p>Embedded antennas are integrated directly into the PCB design, saving space and offering improved durability. They are used in compact devices like smartphones and wearables.</p>
+            <p><strong>Example:</strong> Antennas in modern smartphones.</p>
+        </div>
+
+        <h2>Examples of PCB Antennas in Real Life</h2>
+        <div class="section-content">
+            <h3>IoT Devices:</h3>
+            <p>PCBs in IoT devices often include embedded antennas for communication with Wi-Fi, Bluetooth, or cellular networks.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Smartphones:</h3>
+            <p>Smartphones rely on PCB-integrated antennas for seamless communication across cellular networks, Wi-Fi, and Bluetooth.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Wearable Devices:</h3>
+            <p>Smartwatches and fitness trackers use miniature PCBs with embedded antennas for Bluetooth and Wi-Fi connectivity.</p>
+        </div>
+
+        <h2>பிரிண்டெட் சர்க்யூட் போர்டு</h2>
+        <p>பிரிண்டெட் சர்க்யூட் போர்டு (PCB) என்பது மின்னணு சாதனங்களில் அடிப்படை கூறாகும். இது மின்னணு கூறுகளுக்கு மெக்கானிக்கல் ஆதரவை வழங்குகிறது மற்றும் மின்சார இணைப்புகளை உருவாக்குகிறது.</p>
+
+        <h2>PCB ஆன்டெனாவின் வகைகள்</h2>
+        <div class="section-content">
+            <h3>மைக்ரோஸ்ட்ரிப் ஆன்டெனா (Microstrip Antenna):</h3>
+            <p>இது PCB மீது நேரடியாக வடிவமைக்கப்படும். இது Wi-Fi மற்றும் GPS சாதனங்களில் பயன்படுகிறது.</p>
+            <p><strong>உதாரணம்:</strong> IoT சாதனங்களில் உள்ள Wi-Fi மாடியூல்கள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>PCB டிரேஸ் ஆன்டெனா (PCB Trace Antenna):</h3>
+            <p>ஒரு எளிய கம்பி பாதை போன்று உருவாக்கப்பட்ட இது குறைந்த செலவில் பயன்படுத்தப்படும்.</p>
+            <p><strong>உதாரணம்:</strong> Bluetooth மற்றும் ZigBee மாடியூல்கள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>உள்ளமைக்கப்பட்ட ஆன்டெனா (Embedded Antenna):</h3>
+            <p>இதில் ஆன்டெனா நேரடியாக PCB வடிவமைப்பில் இணைக்கப்பட்டுள்ளது.</p>
+            <p><strong>உதாரணம்:</strong> ஸ்மார்ட்போன்களில் உள்ள ஆன்டெனாக்கள்.</p>
+        </div>
+
+        <h2>தினசரி வாழ்க்கையில் PCB ஆன்டெனாவின் உதாரணங்கள்</h2>
+        <div class="section-content">
+            <h3>IoT சாதனங்கள்:</h3>
+            <p>IoT சாதனங்களில் Wi-Fi, Bluetooth தொடர்புகளுக்கு இவை பயன்படுத்தப்படுகின்றன.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>ஸ்மார்ட்போன்கள்:</h3>
+            <p>ஸ்மார்ட்போன்களில் உள்ள PCB ஆன்டெனாக்கள் Wi-Fi மற்றும் Bluetooth க்கு முக்கியமானவை.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>அணிகலன்கள்:</h3>
+            <p>Smartwatches மற்றும் fitness trackers போன்றவை உள்ளமைக்கப்பட்ட ஆன்டெனாக்களை கொண்டுள்ளது.</p>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <p>© 2024 PCB Knowledge</p>
+    </footer>
+
+</body>
+</html>

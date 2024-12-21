@@ -1,0 +1,251 @@
+﻿ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Capacitor</title>
+        <style>
+            /* Body Styling */
+            body {
+                font-family: 'Arial', sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background: #E1EBEE; /* Aqua Blue Gradient with #E1EBEE */
+                color: #333;
+                padding-bottom: 50px;
+            }
+
+            header {
+                background-color: #333;
+                color: white;
+                padding: 20px;
+                text-align: center;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                border-bottom: 4px solid #009688;
+                position: relative; /* Make header position relative for logo positioning */
+            }
+
+                header h1 {
+                    font-size: 3rem;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    font-weight: bold;
+                }
+
+            /* Logo Positioning */
+            .logo {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                width: 80px; /* Adjust the size of the logo */
+                height: auto;
+            }
+
+            .container {
+                max-width: 900px;
+                margin: 20px auto;
+                background-color: white;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+                animation: fadeIn 1.5s ease-in-out; /* Fade-in effect */
+            }
+
+            /* Title and Subtitle */
+            h2, h3 {
+                color: #333;
+                font-size: 2rem;
+                margin-bottom: 15px;
+                font-weight: bold;
+            }
+
+            p {
+                color: #555;
+                font-size: 1.1rem;
+                margin-bottom: 20px;
+            }
+
+            /* Styled Capacitor Image */
+            .image-container {
+                text-align: center;
+                margin: 30px 0;
+            }
+
+                .image-container img {
+                    width: 60%;
+                    max-width: 400px;
+                    border-radius: 10px;
+                    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                    transition: transform 0.3s ease-in-out;
+                }
+
+                    .image-container img:hover {
+                        transform: scale(1.05); /* Hover effect to enlarge image */
+                    }
+
+            /* Section Styling */
+            .section-title {
+                background-color: #009688;
+                color: white;
+                padding: 10px;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+
+            .section-content {
+                padding: 15px;
+                background-color: #f1f1f1;
+                border-radius: 5px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+            }
+
+            /* Hover Effects for Links */
+            a {
+                text-decoration: none;
+                color: #009688;
+                font-weight: bold;
+                border-bottom: 2px solid #009688;
+                transition: color 0.3s ease, border-color 0.3s ease;
+            }
+
+                a:hover {
+                    color: #333;
+                    border-color: #333;
+                }
+
+            /* Animation for fade-in content */
+            @keyframes fadeIn {
+                0% {
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            /* Footer Styling */
+            footer {
+                text-align: center;
+                margin-top: 40px;
+                padding: 10px;
+                background-color: #333;
+                color: white;
+                position: relative;
+                bottom: 0;
+                width: 100%;
+                font-size: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <h1>Capacitor</h1>
+            <!-- Logo on the right corner -->
+            <img src="https://via.placeholder.com/80x80?text=Logo" alt="Logo" class="logo">
+        </header>
+
+        <div class="container">
+
+            <p>An antenna is a device used to transmit and receive radio waves. It acts as a bridge between the electronic equipment and the electromagnetic waves, allowing devices to communicate over long distances. Antennas are essential for various communication systems, including radio, television, mobile phones, and satellite signals.</p>
+
+            <div class="image-container">
+                <img src="https://via.placeholder.com/400x300?text=Antenna+Image" alt="Antenna">
+            </div>
+
+            <h2>Types of Antennas</h2>
+            <div class="section-content">
+                <h3>Dipole Antenna:</h3>
+                <p>This is one of the simplest types of antennas, consisting of two conductive elements (often in the shape of a rod). It is commonly used for receiving signals in radio and television systems.</p>
+                <p><strong>Example:</strong> Used in traditional FM radios.</p>
+            </div>
+
+            <div class="section-content">
+                <h3>Monopole Antenna:</h3>
+                <p>A monopole antenna is similar to the dipole antenna but only requires one conductive element. It is often mounted above a ground plane for better reception.</p>
+                <p><strong>Example:</strong> Often used in mobile phones and car radio antennas.</p>
+            </div>
+
+            <div class="section-content">
+                <h3>Parabolic Antenna:</h3>
+                <p>This type of antenna uses a parabolic reflector to focus electromagnetic waves, typically used for satellite communications or radar systems.</p>
+                <p><strong>Example:</strong> Used for satellite TV dishes or space communication.</p>
+            </div>
+
+            <div class="section-content">
+                <h3>Yagi-Uda Antenna:</h3>
+                <p>This antenna has multiple elements arranged in a line, often used to focus the signal in one direction. It provides better signal range and is commonly used for TV reception or ham radio.</p>
+                <p><strong>Example:</strong> Used for television antenna systems in homes.</p>
+            </div>
+
+            <h2>Examples of Antennas in Real Life</h2>
+            <div class="section-content">
+                <h3>Mobile Phones:</h3>
+                <p>Modern smartphones contain internal antennas that allow them to connect to cellular networks, Wi-Fi, and Bluetooth.</p>
+            </div>
+
+            <div class="section-content">
+                <h3>Wi-Fi Routers:</h3>
+                <p>Wi-Fi routers use antennas to send and receive data to and from connected devices, enabling wireless internet access.</p>
+            </div>
+
+            <div class="section-content">
+                <h3>Satellite Dishes:</h3>
+                <p>Satellite dishes, often found on rooftops, use parabolic antennas to communicate with satellites orbiting the Earth, providing TV signals and internet access.</p>
+            </div>
+
+            <h2>கேபாசிட்டர்</h2>
+            <p>ஆன்டெனாவின் செயல்பாடு என்பது மின்கம்பிகளை வெளியிடுவதோ அல்லது பெறுவதோ ஆகும். இது மின்கம்பிகளை பரிமாறி அனுப்பி அல்லது வாங்கி கொண்டு, தொலைபேசி, ரேடியோ, மற்றும் செயற்கைக்கோள் சிக்னல்களுக்கு பயன்படும்.</p>
+
+            <h2>ஆன்டெனாவின் வகைகள்</h2>
+            <div class="section-content">
+                <h3>டிபோல் ஆன் என்டேனா (Dipole Antenna):</h3>
+                <p>இது மிகவும் எளிய வகையான ஆன் என்டேனா ஆகும். இது இரண்டு கம்பிகள் கொண்டது.</p>
+                <p><strong>உதாரணம்:</strong> FM ரேடியோவுக்கு பயன்படுத்தப்படுகிறது.</p>
+            </div>
+
+            <div class="section-content">
+                <h3>மொனோபோல் ஆன் என்டேனா (Monopole Antenna):</h3>
+                <p>இது ஒரு கம்பி கொண்டது மற்றும் கிரவுண்டில் இணைக்கப்பட்டுள்ளது.</p>
+                <p><strong>உதாரணம்:</strong> மொபைல் போன்களில் பயன்படுத்தப்படுகிறது.</p>
+            </div>
+
+            <div class="section-content">
+                <h3>பரபோலிக் ஆன் என்டேனா (Parabolic Antenna):</h3>
+                <p>செயற்கைக்கோள் தொடர்புகளுக்கு இது பயன்படுகிறது. இது ஒரு பரபோலிக் கதிர்ப்பாதை கொண்டுள்ளது.</p>
+                <p><strong>உதாரணம்:</strong> செயற்கைக்கோள் தொலைக்காட்சி பரிமாற்றம்.</p>
+            </div>
+
+            <div class="section-content">
+                <h3>யாகி-யூடா ஆன் என்டேனா (Yagi-Uda Antenna):</h3>
+                <p>இந்த ஆன் என்டேனா பல அமைப்புகளை கொண்டுள்ளது. இது ஒரு குறிப்பிட்ட திசையில் சிக்னலை அதிகரிக்க உதவுகிறது.</p>
+                <p><strong>உதாரணம்:</strong> வீட்டின் டிவி ஆன் என்டேனாவில் பயன்படுத்தப்படுகிறது.</p>
+            </div>
+
+            <h2>தினசரி வாழ்க்கையில் ஆன் என்டேனாவின் உதாரணங்கள்</h2>
+            <div class="section-content">
+                <h3>மொபைல் போன்கள்:</h3>
+                <p>மொபைல் போன்களில் உள்ள உள்ளமைப்புகள் தங்களது மொபைல் நெட்வொர்க்குடன் இணைக்க உதவுகின்றன.</p>
+            </div>
+
+            <div class="section-content">
+                <h3>Wi-Fi ரோடர்கள்:</h3>
+                <p>Wi-Fi ரோடர்கள் உட்புற ஆன் என்டேனாக்களை கொண்டு இணைய சேவையை வழங்குகின்றன.</p>
+            </div>
+
+            <div class="section-content">
+                <h3>செயற்கைக்கோள் டிஷ்கள்:</h3>
+                <p>செயற்கைக்கோள் டிஷ்கள் பரபோலிக் ஆன் என்டேனாக்களைக் கொண்டுள்ளன.</p>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>© 2024 Capacitor Knowledge</p>
+        </footer>
+
+    </body>
+</html>
