@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capacitor</title>
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE; /* Aqua Blue Gradient with #E1EBEE */
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative; /* Make header position relative for logo positioning */
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px; /* Adjust the size of the logo */
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out; /* Fade-in effect */
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Capacitor Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05); /* Hover effect to enlarge image */
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Capacitor</h1>
+        <!-- Logo on the right corner -->
+        <img src="../reference images/logo.png" alt="Logo" class="logo">
+    </header>
+
+    <div class="container">
+
+        <p>A capacitor is like a small container that can store electricity for a short time. It's not a battery, but it can hold and release energy when needed. Imagine it as a bucket that fills with water (electricity) and can pour it out quickly when needed.</p>
+
+        <div class="image-container">
+            <img src="../reference images/capacitor.jpg" alt="Capacitor">
+        </div>
+
+        <h2>Types of Capacitors </h2>
+        <div class="section-content">
+            <h3>Fixed Capacitors:</h3>
+            <p>These are like set-size containers that cannot change. They always store the same amount of energy.</p>
+            <p><strong>Example:</strong> In your TV or radio, to help make the signal clear.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Variable Capacitors:</h3>
+            <p>These can change how much energy they store, like a bucket with an adjustable size.</p>
+            <p><strong>Example:</strong> Old radios, where you turn a knob to change the signal.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Electrolytic Capacitors:</h3>
+            <p>These are larger containers that hold more energy. They are usually marked with a plus and minus, showing which side to connect.</p>
+            <p><strong>Example:</strong> In phone chargers or power supplies for electronics.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Supercapacitors:</h3>
+            <p>These are big, special containers that hold a lot more energy than usual capacitors but still not as much as a battery.</p>
+            <p><strong>Example:</strong> Used in backup power systems (like in a computer when the power goes off for a second).</p>
+        </div>
+
+        <h2>Examples of Capacitors in Real Life</h2>
+        <div class="section-content">
+            <h3>Mobile Phones:</h3>
+            <p>Capacitors help smooth out power, making sure your phone works without interruptions.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Radios and TVs:</h3>
+            <p>Capacitors help clean up the electrical signals, so you can hear clear sounds and see sharp pictures.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Power Supply Units:</h3>
+            <p>Capacitors store and release energy to keep the power steady, so your electronics don't get damaged by sudden power changes.</p>
+        </div>
+
+        <h2>கேபாசிட்டர்  </h2>
+        <p>கேபாசிட்டர் என்பது மின்சாரத்தை சில நேரங்களில் சேமித்து வைக்கும் ஒரு சிறிய பெட்டிக்கான போன்று செயல்படுகிறது. இது பேட்டரி போல மின்சாரத்தை உற்பத்தி செய்யவில்லை, ஆனால் அதை சேமித்து, தேவையால் வெளியேற்றும்.</p>
+
+        <h2>
+            கேபாசிட்டர் வகைகள்
+        </h2>
+        <div class="section-content">
+            <h3>நிலையான கேபாசிட்டர்கள் (Fixed Capacitors):</h3>
+            <p>இந்தக் கேபாசிட்டர்கள் எப்போதும் ஒரே அளவு மின்சாரத்தை சேமிக்கின்றன.</p>
+            <p><strong>உதாரணம்:</strong> டிவி அல்லது ரேடியோவில்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>மாறுபாடான கேபாசிட்டர்கள் (Variable Capacitors):</h3>
+            <p>இவை மின்சாரத்தை சேமிக்கும் அளவை மாற்றிக்கொள்ளலாம்.</p>
+            <p><strong>உதாரணம்:</strong> பழைய ரேடியோவிலுள்ள டியூனிங்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>இலக்ட்ரோலைட்டிக் கேபாசிட்டர்கள் (Electrolytic Capacitors):</h3>
+            <p>இந்தக் கேபாசிட்டர்கள் அதிக மின்சாரத்தை சேமிக்கின்றன.</p>
+            <p><strong>உதாரணம்:</strong> மொபைல் சார்ஜர்கள் அல்லது மின்சார உபகரணங்களில்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>சூப்பர்கேபாசிட்டர்கள் (Supercapacitors):</h3>
+            <p>இவை மிகவும் அதிக மின்சாரத்தை சேமிக்கின்றன, ஆனால் பேட்டரிகளைவிட குறைவாக.</p>
+            <p><strong>உதாரணம்:</strong> பின்புல மின்சார அமைப்புகளில்.</p>
+        </div>
+
+        <h2>தினசரி வாழ்க்கையில் கேபாசிட்டர்களின் உதாரணங்கள்</h2>
+        <div class="section-content">
+            <h3>மொபைல் போன்கள்:</h3>
+            <p>கேபாசிட்டர்கள் மின்சாரத்தை சீராக பராமரித்து, உங்கள் போனின் செயல்பாடுகளை சரி செய்ய உதவுகின்றன.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>ரேடியோ மற்றும் டிவி:</h3>
+            <p>கேபாசிட்டர்கள் சிக்னல்களை சுத்தமாக்கி, நல்ல ஒலி மற்றும் காட்சி தருகின்றன.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>மின்சார வழங்கல்:</h3>
+            <p>கேபாசிட்டர்கள் மின்சாரத்தை சேமித்து, அது தேவையானபோது வெளியேற்றுவதை உறுதி செய்கின்றன.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2024 Capacitor Knowledge</p>
+    </footer>
+
+</body>
+</html>

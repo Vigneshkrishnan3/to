@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components Home Page</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9; /* Light gray background */
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            font-weight: bold;
+            color: #004aad; /* Blue color for heading */
+        }
+
+        p {
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        /* Container for Buttons */
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            max-width: 1200px;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        /* Button Styling */
+        .component-button {
+            background-color: #0066cc; /* Blue button background */
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+            .component-button:hover {
+                background-color: #005bb5;
+                transform: scale(1.05);
+            }
+
+        /* Back Button Styling */
+        .back-button {
+            margin-top: 20px;
+            background-color: #ff6f61; /* Red-orange color */
+            color: white;
+            padding: 12px 30px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 10px;
+            text-decoration: none;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(255, 111, 97, 0.2);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+            .back-button:hover {
+                background-color: #e55a47;
+                transform: scale(1.05);
+            }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .button-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .button-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .component-button {
+                font-size: 0.9rem;
+                padding: 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .button-container {
+                grid-template-columns: 1fr;
+            }
+
+            .component-button {
+                font-size: 1rem;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to Components Home Page</h1>
+    <p>Click on the components below to explore more about each one.</p>
+
+    <!-- Buttons Grid Container -->
+    <div class="button-container">
+        <a href="IC.html" class="component-button">IC</a>
+        <a href="screw.html" class="component-button">SCREW</a>
+        <a href="MOSFET.html" class="component-button">MOSFET</a>
+        <a href="Connectors.html" class="component-button">CONNECTOR</a>
+        <a href="antenna.html" class="component-button">ANTENNA</a>
+        <a href="pcb.html" class="component-button">PCB</a>
+        <a href="terminals.html" class="component-button">TERMINALS</a>
+        <a href="Capacitor.html" class="component-button">CAPACITOR</a>
+        <a href="insulator.html" class="component-button">INSULATOR</a>
+        <a href="wire.html" class="component-button">WIRE</a>
+        <a href="transistor.html" class="component-button">TRANSISTOR</a>
+        <a href="sensors.html" class="component-button">SENSORS</a>
+        <a href="thermistor.html" class="component-button">THERMISTOR</a>
+        <a href="battery.html" class="component-button">BATTERY</a>
+        <a href="transformer.html" class="component-button">TRANSFORMER</a>
+        <a href="led.html" class="component-button">LED</a>
+        <a href="ferrite.html" class="component-button">FERRITE</a>
+        <a href="relay.html" class="component-button">RELAY</a>
+        <a href="resistor.html" class="component-button">RESISTOR</a>
+        <a href="switch.html" class="component-button">SWITCH</a>
+        <a href="lcd.html" class="component-button">LCD</a>
+        <a href="diode.html" class="component-button">DIODE</a>
+        <a href="inductor.html" class="component-button">INDUCTOR</a>
+        <a href="adapter.html" class="component-button">ADAPTER</a>
+        <a href="bracket.html" class="component-button">BRACKET</a>
+        <a href="jumper.html" class="component-button">JUMPER</a>
+        <a href="sleeve.html" class="component-button">SLEEVE</a>
+        <a href="nut.html" class="component-button">NUT</a>
+        <a href="heatsink.html" class="component-button">HEATSINK</a>
+        <a href="choke.html" class="component-button">CHOKE</a>
+        <a href="regulator.html" class="component-button">REGULATOR</a>
+        <a href="coil.html" class="component-button">COIL</a>
+        <a href="spacer.html" class="component-button">SPACER</a>
+        <a href="oring.html" class="component-button">O-RING</a>
+        <a href="lens.html" class="component-button">LENS</a>
+    </div>
+
+    <!-- Back Button -->
+    <a href="index.html" class="back-button">
+        Back to Welcome Page</a>
+
+        <footer>
+            <p>© 2024 Capacitor Knowledge</p>
+        </footer>
+
+</body>
+</html>
